@@ -15,7 +15,7 @@ const httpOptions = {
 })
 export class AuthenticationService {
 
-  apiUrl="http://189.1.102.246:8080/grupo-redes-services/api";
+  apiUrl="http://34.227.67.225:8089/grupo-redes-services/api";
   //apiUrl="http://localhost:8080/api";
   private currentUserSubject: BehaviorSubject<any>;
   public currentUser: Observable<any>;
